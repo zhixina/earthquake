@@ -1,0 +1,11 @@
+
+Stationid_list：包含位置ID对应的经(Longitude)纬(Latitude)度。
+
+
+A榜分为训练集和测试集，包含每个地点的AETA电磁和地声均值；
+训练集包含912天（130周2天），每10分钟的平均值。
+测试集包含93天（13周2天），每分钟的平均值，需测试8-98天的地震目录
+24_finaldata_lowfreq_magn：AETA电磁均值
+24_finaldata_lowfreq_sound：地声均值
+
+训练集中还包含eq_list_train：919天全球≥3.5级的地震目录，包含时间、震级、经纬度，深度。
